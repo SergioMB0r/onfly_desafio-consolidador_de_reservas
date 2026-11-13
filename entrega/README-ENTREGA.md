@@ -1,8 +1,8 @@
 # Entrega — Consolidador de Reservas Onfly
 
-## 1. Defeitos Corrigidos (código)
+## 1. Problemas Corrigidos (código)
 
-Durante a investigação guiada pelos testes do `pytest`, IA e pela amostra de validação, foram identificados 5 defeitos principais:
+Durante a investigação guiada pelos testes do `pytest`, IA e pela amostra de validação, foram identificados 5 problemas principais:
 
 1.1. **Cálculo de Noites (`stay_calculator.py`)**
    * **Dor:** Reservas que viravam o mês resultavam em noites negativas (ex: `-28` noites na virada de janeiro para fevereiro).
